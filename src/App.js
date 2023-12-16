@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React, { Component } from 'react';
+import Message from './Message';
+import SimpleQuotation from './SimpleQuotation';
+import Quatation from './Quatation';
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <Message titre="Notification" date="jma" contenu="Composant affiché avec succès" />
+      <Message contenu="Information sans titre" />
+      <SimpleQuotation />
+      <Quatation />
     </div>
   );
-}
+};
 
 export default App;

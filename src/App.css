@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,15 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.brushing {
+  font-family: "Brush Script MT";
+  font-size: 1.8em;
+  border-top: 1px dotted;
+  border-bottom: 1px dotted;
+}
+.date-info {
+  font-size: 0.6em;
+  color: grey;
 }
